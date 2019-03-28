@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  web:
+    image: richarvey/nginx-php-fpm:latest
+    ports:
+    - 8080:80
+    volumes:
+    - ./code:/var/www/html
+  redis:
+    image: redis
+
